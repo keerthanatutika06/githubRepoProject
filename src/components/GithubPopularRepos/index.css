@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Lobster';
+}
+.language-filters-list {
+  display: flex;
+  list-style-type: none;
+}
+.repositories-list {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 200px;
+  width: 200px;
+}
+.failure-text {
+  color: #1e293b;
+  font-weight: 500;
+}
